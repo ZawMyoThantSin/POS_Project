@@ -34,3 +34,4 @@ Route::middleware('admin')->group(function(){
 // github and google login
 Route::get('/auth/{provider}/redirect',[ProviderController::class,'redirect']);
 Route::get('/auth/{provider}/callback',[ProviderController::class,'callback']);
+
